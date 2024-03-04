@@ -2025,6 +2025,8 @@ void TabPrint::build()
         optgroup->append_single_option_line("is_infill_first");
         optgroup->append_single_option_line("wall_direction");
         optgroup->append_single_option_line("print_flow_ratio");
+        optgroup->append_single_option_line("infill_flow_ratio");
+        optgroup->append_single_option_line("solid_infill_flow_ratio");
         optgroup->append_single_option_line("top_solid_infill_flow_ratio");
         optgroup->append_single_option_line("bottom_solid_infill_flow_ratio");
         optgroup->append_single_option_line("only_one_wall_top");
